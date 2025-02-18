@@ -10,7 +10,7 @@ const Weather = () => {
 	const [data, setData] = useState({});
 
 	const API_KEY = 'cd270ad4f5682f92f5e308079ee09b62';
-	const url = `http://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`;
+	const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`;
 
 	const searchLocation = event => {
 		if (event.key === 'Enter') {
